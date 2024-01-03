@@ -114,6 +114,7 @@ namespace OpenAI
         public ChatMessage Message { get; set; }
         public ChatMessage Delta { get; set; }
         public int? Index { get; set; }
+        public string Logprobs { get; set; }
         public string FinishReason { get; set; }
     }
 
